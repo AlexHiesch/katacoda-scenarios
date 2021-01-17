@@ -1,6 +1,6 @@
 Further links:
 
-[Docker Community Forums](https://community.docker.com/registrations/)groups/4316
+[Docker Community Forums](https://community.docker.com/registrations/)
 
 [Docker Hub](https://hub.docker.com/)
 
