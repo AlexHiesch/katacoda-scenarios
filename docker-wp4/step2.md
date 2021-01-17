@@ -38,3 +38,8 @@ Stream the logs of the recent entry:
 
 Stop it:
 `^C`{{execute ctrl-seq}}
+
+What if we run multiple instances at once? How much disk space will it use?
+
+`docker run --name clock2 -d alexhiesch/clock && docker run --name clock3 -d alexhiesch/clock && docker run --name clock4 -d alexhiesch/clock && docker run --name clock5 -d alexhiesch/clock && docker system df -v`{{execute interrupt}}
+
