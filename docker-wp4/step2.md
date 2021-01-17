@@ -29,7 +29,7 @@ Stop it:
 `^C`{{execute ctrl-seq}}
 
 Run it again, but this time in the background:
-`docker run -rm --name clock -d alexhiesch/clock`{{execute interrupt}}
+`docker run --rm --name clock -d alexhiesch/clock`{{execute interrupt}}
 
 Read the logs: 
 `docker logs clock `{{execute interrupt}}
