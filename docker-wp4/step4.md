@@ -25,10 +25,9 @@ Insert the following definition into the Dockerfile
 
 ```
 FROM ubuntu
-# shell syntax with string
-RUN apt-get update
-# exec syntax with json list
-RUN ["apt-get", "install", "-y","figlet"]
+RUN apt-get update # shell syntax with string
+RUN ["apt-get", "install", "-y","figlet"] # exec syntax with json list
+
 CMD exec figlet -f script Welcome to the figlet image based on ubuntu
 ```
 
