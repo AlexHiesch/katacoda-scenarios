@@ -10,7 +10,7 @@ It seems like the container is getting killed if it's not active anymore?
 `docker ps -n 1`{{execute}}
 
 Just one more time but now detached:
-`docker run -rm -d -it --name 20_sec_alive alpine sleep 20 && watch docker ps -a`{{execute}}
+`docker run --rm -d -it --name 20_sec_alive alpine sleep 20 && watch docker ps -a`{{execute}}
 
 Check the stats:
 
@@ -42,5 +42,5 @@ Stop it:
 
 What if we run multiple instances at once? How much disk space will it use?
 
-`docker run -rm --name clock2 -d alexhiesch/clock && docker run -rm --name clock3 -d alexhiesch/clock && docker run -rm --name clock4 -d alexhiesch/clock && docker run -rm --name clock5 -d alexhiesch/clock && docker system df -v && docker ps -s`{{execute interrupt}}
+`docker run --rm --name clock2 -d alexhiesch/clock && docker run --rm --name clock3 -d alexhiesch/clock && docker run --rm --name clock4 -d alexhiesch/clock && docker run --rm --name clock5 -d alexhiesch/clock && docker system df -v && docker ps -s`{{execute interrupt}}
 
