@@ -27,4 +27,14 @@ Now we are inside of the container and stuck with an endless loop.
 Stop it:
 `^C`{{execute ctrl-seq}}
 
+Run it again, but this time in the background:
+`docker run --name clock -d alexhiesch/clock`{{execute interrupt}}
 
+Read the logs: 
+`docker logs clock `{{execute interrupt}}
+
+Stream the logs of the recent entry:
+`docker logs -t --tail 1 -f clock`{{execute interrupt}}
+
+Stop it:
+`^C`{{execute ctrl-seq}}
