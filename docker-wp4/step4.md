@@ -23,13 +23,13 @@ Create a new empty file
 
 Insert the following definition into the Dockerfile
 
-```FROM ubuntu
+`FROM ubuntu
 # shell syntax with string
 RUN apt-get update
 # exec syntax with json list
 RUN ["apt-get", "install", "-y","figlet"]
-CMD exec figlet -f script Welcome to the figlet image based on ubuntu
-```
+CMD exec figlet -f script Welcome to the figlet image based on ubuntu`{{copy}}
+
 
 Build an image according to the Dockerfile in the current working dir
 `docker build -t figlet .`{{execute}}

@@ -26,8 +26,8 @@ hmm, guess we have to install it first:
 
 `figlet -f script just one more time`{{execute}}
 
-Deattach it:
-`^D`{{execute ctrl-seq}}
+Stop it:
+`exit`{{execute}}
 
 Does this work again?
 
@@ -37,7 +37,10 @@ Does this work again?
 
 Nope. Bad luck.
 Or maybe that's the actual container Workflow. 
+
 Always start with a fresh image! 
 (Even though you could start a stopped one and resume the activities)
 
 Treat containers like cattle, not like pets.
+
+`exit`{{execute}}

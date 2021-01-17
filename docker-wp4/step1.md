@@ -20,5 +20,5 @@ Empty??? Why's that?
 
 Should we maybe check all runs independently of their status?
 
-`docker ps -a`{{execute}}
+`docker ps -s -a`{{execute}}
 

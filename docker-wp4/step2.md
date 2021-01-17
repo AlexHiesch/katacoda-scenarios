@@ -7,12 +7,13 @@ To understand the lifecycle of containers, we can kick off another instance but 
 So what is going on here? 
 It seems like the container is getting killed if it's not active anymore?
 
-`docker ps -a`{{execute}}
+`docker ps -n 1`{{execute}}
 
 Just one more time but now detached:
 `docker run -d -it --name 20_sec_alive alpine sleep 20 && watch docker ps -a`{{execute}}
 
-Check the stats
+Check the stats:
+
 `docker top 20_sec_alive`{{execute interrupt}}
 
 `docker stats`{{execute interrupt}}
