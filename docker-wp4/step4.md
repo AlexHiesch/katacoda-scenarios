@@ -37,3 +37,5 @@ Build an image according to the Dockerfile in the current working dir
 
 Start the image
 `docker run -ti figlet`{{execute}}
+
+`exit`{{execute}}

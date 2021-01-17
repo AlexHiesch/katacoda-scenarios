@@ -7,7 +7,7 @@ So far we have only tried out single containers. Real applications consists of t
 In this case we can explore a sample application that uses a flask container and a redis container managed by docker compose
 
 Clone the application first
-`git clone alexhiesch/trainingwheels`{{execute}}
+`git clone https://github.com/alexhiesch/trainingwheels`{{execute}}
 
 `cd trainingwheels`{{execute}}
 
@@ -20,9 +20,7 @@ Understand the composition and the Dockerfile
 
 `docker-compose ps`{{execute}}
 
-[Try it out here[(http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
-
-`docker-compose down`{{execute}}
+[Try it out here](http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
 
 `docker-compose down`{{execute}}
 
