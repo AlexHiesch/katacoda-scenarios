@@ -53,8 +53,11 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+	  "hideintro":true,
+	  "uilayout":"terminal-terminal"
+  },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
