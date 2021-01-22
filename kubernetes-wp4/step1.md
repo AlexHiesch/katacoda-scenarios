@@ -1,5 +1,9 @@
 Start the Cluster: 
-launch.sh{{execute}}
+`launch.sh`{{execute}}
 
-Verify 
-You can get with kubectl get nodes{{execute}}
+Verify with `kubectl get nodes`{{execute}}
+
+Setup your IDE:
+Install the Kubernetes extensions and restart the IDE
+
+

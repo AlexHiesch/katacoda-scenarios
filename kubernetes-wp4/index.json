@@ -54,7 +54,7 @@
     }
   },
   "environment": {
-	  "uilayout":"vscode-terminal-split"
+	  "showide":"true"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
