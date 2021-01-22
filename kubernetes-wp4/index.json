@@ -54,7 +54,8 @@
     }
   },
   "environment": {
-	  "showide":"true"
+      "showide":"true",
+      "showvisualise": true
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
