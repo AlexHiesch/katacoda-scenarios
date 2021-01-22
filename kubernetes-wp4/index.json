@@ -1,7 +1,7 @@
 {
   "title": "Kubernetes Intro (WP4)",
   "description": "Follow-up on container orchestration",
-  "difficulty": "Beginner",
+  "difficulty": "Intermediate",
   "time": "60 minutes",
   "details": {
     "steps": [
@@ -55,7 +55,7 @@
   },
   "environment": {
 	  "hideintro":true,
-	  "uilayout":"terminal-terminal"
+	  "uilayout":"uilayout-vscode-terminal"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
