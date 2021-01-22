@@ -4,6 +4,8 @@ Start the Cluster:
 Verify with `kubectl get nodes`{{execute}}
 
 Setup your IDE:
-Install the Kubernetes extensions and restart the IDE
+1. Install the Kubernetes extensions 
+2. restart the IDE
+3. Open up a Terminal
 
 
