@@ -16,3 +16,18 @@ Show the capacity of all our nodes as a stream of JSON objects
 `kubectl get nodes -o json | jq ".items[] | {name:.metadata.name} + .status.capacity"`{{execute}}
 
 In order to get details of a particular note, use `kubectl describe node node01`{{execute}}
+
+What about pods?
+`kubectl get pods`{{execute}}
+
+What? Wait? That's not true
+
+I guess we have to specify a namespace 
+`kubectl get namespaces`{{execute}}
+
+Let's see which exist
+`kubectl get pods --namespaces=kube-system`{{execute}}
+
+We can also set the  namespaces default
+`kubectl set-context mydefault --namespaces=default && kubectl config use-context mydefault`{{execute}}
+
