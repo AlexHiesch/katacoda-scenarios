@@ -26,8 +26,5 @@ I guess we have to specify a namespace
 `kubectl get namespaces`{{execute}}
 
 Let's see which exist
-`kubectl get pods --namespaces=kube-system`{{execute}}
-
-We can also set the  namespaces default
-`kubectl set-context mydefault --namespaces=default && kubectl config use-context mydefault`{{execute}}
+`kubectl get pods --namespace=kube-system`{{execute}}
 
