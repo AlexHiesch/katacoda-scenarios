@@ -1,14 +1,14 @@
 # Explicit > Implicit
 
-So far with ´kubectl run´ we have implicitly started container
+So far with ´kubectl run´ we have implicitly started a container
 If we want to start explicitly we need a yaml file
 This is an easy way how to generate one:
 
- `kubectl run firsttry --dry-run=client --image=alpine ping google.com -o yaml > firsttry.yaml`{{execute}}
+ `kubectl run secondtry --dry-run=client --image=alpine ping google.com -o yaml > secondtry.yaml`{{execute}}
 
 To deploy it you type:
 
-  `kubectl create -f firsttry.yaml`{{execute}}
+  `kubectl create -f secondtry.yaml`{{execute}}
 
 
   sudo curl -L -o /usr/local/bin/stern \

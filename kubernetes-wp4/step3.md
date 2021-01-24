@@ -14,3 +14,5 @@ What is the pod doing?
 Let's stream the logs:
 `kubectl logs firsttry --follow --tail 1`{{execute}}
 
+Stop it:
+`^C`{{execute ctrl-seq}}
