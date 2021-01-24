@@ -13,6 +13,7 @@
 
 Single Nodes with:
 - minikube, kubespawn, minishift, Docker4Mac, Docker Desktop
+  
 - Microsoft Azure
 AKS
 - Google Cloud Computing
