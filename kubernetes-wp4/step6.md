@@ -2,7 +2,7 @@
 
 Create a new deployment yaml
 
-<pre class="file" data-filename="app.js" data-target="replace">
+<pre class="file" data-filename="myapp.yaml" data-target="replace">
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -45,11 +45,11 @@ spec:
 
 
 Deploy it
-`kubectl apply -f deployment.yaml`{{execute}}
+`kubectl apply -f myapp.yaml`{{execute}}
 
 Check its status
 `kubectl get all`{{execute}}
 
 Open up the webpage
 
-<pre>https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:30000</pre>
+[Try it out here](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:30000)
