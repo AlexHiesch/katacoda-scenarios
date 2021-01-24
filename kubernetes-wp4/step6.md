@@ -52,4 +52,4 @@ Check its status
 
 Open up the webpage
 
-[Try it out here](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:30000)
+[Try it out here](https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com)
