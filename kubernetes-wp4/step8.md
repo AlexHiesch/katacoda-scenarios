@@ -14,7 +14,7 @@
 Single Nodes with:
 - minikube, kubespawn, minishift, Docker4Mac, Docker Desktop
 
-CaaS / K8sAAS:  
+CaaS / KaaS:  
 - Microsoft Azure
 AKS
 - Google Cloud Computing
