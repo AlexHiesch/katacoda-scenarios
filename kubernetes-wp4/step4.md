@@ -1,7 +1,16 @@
-# Setup our IDE
+# Explicit > Implicit
+
+So far with ´kubectl run´ we have implicitly started container
+If we want to start explicitly we need a yaml file
+This is an easy way how to generate one:
+
+ `kubectl run firsttry --dry-run=client --image=alpine ping google.com -o yaml > firsttry.yaml`{{execute}}
+
+To deploy it you type:
+
+  `kubectl create -f firsttry.yaml`{{execute}}
 
 
-1. Switch to the IDE Tab
-2. Install Kubernetes extensions 
-3. restart the IDE
-4. Open up a Terminal in VSCode
+  sudo curl -L -o /usr/local/bin/stern \
+   https://github.com/wercker/stern/releases/download/1.10.0/stern_linux_amd64
+sudo chmod +x /usr/local/bin/stern
