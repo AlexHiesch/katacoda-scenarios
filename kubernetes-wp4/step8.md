@@ -1,4 +1,4 @@
-![Thank you](https://imgflip.com/i/4v2pnj)
+![Thank you](https://i.imgflip.com/4v2pnj.jpg)
 
 Further Links:
 

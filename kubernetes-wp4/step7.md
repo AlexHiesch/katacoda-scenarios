@@ -12,7 +12,7 @@ Stop it
 How many pods do we have now?
 `kubectl get po | tail +2 | wc -l`{{execute}}
 
-Kill one host and watch what happens
+Kill one pod and watch what happens
 `kubectl delete pod $(kubectl get po | grep Running | head -n 1 | awk '{print $1;}') `{{execute}}
 
 How many pods do we have now?
