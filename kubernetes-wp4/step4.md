@@ -22,3 +22,6 @@ Stop it:
 
 Let's delete the last one again and check the logs:
 `kubectl delete -f secondtry.yaml && stern --tail 1 -t --selector run`{{execute}}
+
+Stop it:
+`^C`{{execute ctrl-seq}}
