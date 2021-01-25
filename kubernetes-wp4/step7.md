@@ -22,3 +22,8 @@ How many pods do we have now?
 Since we have specified the desired amount of instances, it heals itself!
 Isn't that nice?
 
+
+BONUS:
+
+`wget https://github.com/derailed/k9s/releases/download/v0.24.2/k9s_Linux_x86_64.tar.gz && tar -xvf k9s && ./k9s`{{execute}}
+
