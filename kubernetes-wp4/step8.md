@@ -2,7 +2,7 @@
 
 # Further Links:
 
-<pre>https://kubernetes.com</pre>
+<pre>https://kubernetes.io</pre>
 
 <pre>https://labs.play-with-k8s.com/</pre>
 
